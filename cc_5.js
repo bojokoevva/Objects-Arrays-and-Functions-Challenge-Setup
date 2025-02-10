@@ -76,3 +76,14 @@ let customers = ["Alice", "Bob", "Charlie", "David"];
 let foundCustomer = customers.find(customer => customer === "Charlie");
 
 console.log(`Found Customer: ${foundCustomer}`);
+
+//Task 8: Tax Calculation
+// Function to calculate tax based on an amount and tax rate
+function calculateTax(amount, taxRate) {
+    let tax = amount * taxRate;
+    console.log(`Calculated Tax: $${tax}`); // Showing the calculated tax
+    return tax; // Returning the tax amount
+}
+
+// Testing the function with an example
+calculateTax(1000, 0.07);
