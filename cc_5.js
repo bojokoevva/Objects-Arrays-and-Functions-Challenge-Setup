@@ -24,3 +24,20 @@ const order = {
 
 // Calling the method to log the order details
 order.displayOrder();
+
+
+// Task 3: Shopping Cart
+// Starting with a list of items in the shopping cart
+let cartItems = ["Apples", "Bananas", "Oranges"];
+
+// Adding a new item to the end of the cart
+cartItems.push("Grapes");
+// Removing the last item from the cart
+cartItems.pop();
+// Adding a new item to the beginning of the cart
+cartItems.unshift("Mangoes");
+// Removing the first item from the cart
+cartItems.shift();
+
+// Logging the final state of the cart
+console.log(cartItems);
