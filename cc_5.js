@@ -1,13 +1,10 @@
 // Task 1: Customer Profile
 
-// Creating an object to represent a customer with some basic details
+// Creating an object to represent a customer with some basic details 
 const customer = { name: "John Doe", age: 35, email: "john.doe@email.com" };
-
-// Logging each property of the customer object
-
-console.log(`Name: ${customer.name}`);
-console.log(`Age: ${customer.age}`);
-console.log(`Email: ${customer.email}`);
+ console.log(`Name: ${customer.name}`);
+ console.log(`Age: ${customer.age}`);
+ console.log(`Email: ${customer.email}`);
 
 // Task 2: Order Details 
 // Creating an object to represent an order with basic details
@@ -39,5 +36,14 @@ cartItems.unshift("Mangoes");
 // Removing the first item from the cart
 cartItems.shift();
 
-// Logging the final state of the cart
 console.log(cartItems);
+
+
+// Task 4: Price Adjustments 
+// Array of original product prices
+let prices = [100, 200, 300];
+
+// Applying a 10% discount to each price using the .map() method
+let discountedPrices = prices.map(price => price * 0.9);
+
+console.log(discountedPrices);
