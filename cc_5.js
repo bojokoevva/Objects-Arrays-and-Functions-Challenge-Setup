@@ -47,3 +47,13 @@ let prices = [100, 200, 300];
 let discountedPrices = prices.map(price => price * 0.9);
 
 console.log(discountedPrices);
+
+
+//Task 5: Product Availability 
+// Array of product quantities in inventory
+let inventory = [5, 0, 12, 8, 0];
+
+// Filtering out products with zero stock using .filter()
+let availableProducts = inventory.filter(quantity => quantity > 0);
+
+console.log(availableProducts);
