@@ -57,3 +57,14 @@ let inventory = [5, 0, 12, 8, 0];
 let availableProducts = inventory.filter(quantity => quantity > 0);
 
 console.log(availableProducts);
+
+
+//Task 6: Revenue Calculation
+// Array representing sales amounts
+let sales = [500, 300, 200, 400];
+
+// Using .reduce() to calculate the total revenue
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+
+console.log(`Total Revenue: $${totalRevenue}`);
+
